@@ -34,4 +34,12 @@ h1{
 Main
 --------------- 
 */
+.container{
+  width: 80%;
+  margin: 40px auto 0;
+}
+
+.container:first-child{
+  text-align: center;
+}
 
