@@ -18,6 +18,12 @@ body{
   font-family: 'Fredoka', sans-serif;;
 }
 
+.clearfix::after{
+  display: block;
+  content: '';
+  clear: both;
+}
+
 /* 
 --------------- 
 Header
@@ -29,6 +35,12 @@ h1{
   color: #e53170;
 }
 
+header p{
+  text-align: center;
+  max-width: 80%;
+  margin: 40px auto 30px;
+}
+
 /* 
 --------------- 
 Main
@@ -36,10 +48,18 @@ Main
 */
 .container{
   width: 80%;
-  margin: 40px auto 0;
+  margin: auto;
 }
 
-.container:first-child{
-  text-align: center;
+.persone{
+  /* background-color: green; */
+}
+ 
+.column{
+  float: left;
+  width: calc((100% / 3) - 20px);
+  border: 1px solid black;
+  background-color: white;
+  margin: 10px;
 }
 
