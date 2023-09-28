@@ -73,6 +73,20 @@ Main
 
 .info{
   color: white;
-  padding-top: 10px;
+  padding-top: 12px;
+  float: left;
+  padding-left: 20px;
 }
+
+.info p, a{
+  font-size: 12px;
+  padding-top: 5px;
+}
+
+a{
+  color: #5fc2f3;
+  text-decoration: none;
+}
+
+
 
