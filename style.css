@@ -50,16 +50,29 @@ Main
   width: 80%;
   margin: auto;
 }
-
-.persone{
-  /* background-color: green; */
-}
  
 .column{
   float: left;
   width: calc((100% / 3) - 20px);
-  border: 1px solid black;
-  background-color: white;
+  background-color: #0f0e17;
   margin: 10px;
+}
+
+.foto{
+  float: left;
+  height: 80px;
+  width: 80px;
+  background-color: blue;
+  background-size: cover;
+}
+
+.foto img{
+  width: 100%;
+  height: 100%;
+}
+
+.info{
+  color: white;
+  padding-top: 10px;
 }
 
